@@ -17,11 +17,3 @@ function frameIt() {
     $(this).addClass("tasty");
   });
 }
-
-function pressIt() {
-  $("input").on("keydown", function(e) {
-    if (e.keycode == 71) {
-      alert("G key pressed!");
-    }
-  });
-}
